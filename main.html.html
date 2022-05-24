@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS MINI PROJECT-1</title>
+</head>
+<form>
+    <input type="text" maxlength="3" id="use" placeholder="ENTER USERNAME"/><br>
+    <input type="password" maxlength="3" id="pass" placeholder="ENTER YOUR PASSWORD"/><br>
+    <button onclick="demo()">Submit</button>    
+</form>
+<script>
+        function demo(){
+            var used =document.getElementById("use").value;
+    var ss ="abc";
+    var usd =document.getElementById("pass").value;
+
+        if(used==ss && usd==123){
+        document.write("CONGRULATION ! YOUR USER NAME AND PASSWORD IS CORRECT");}
+        else{
+            document.write("PLEASE CHECK YOUR USERNAME AND PASSWORD IS INCORRECT");
+        }
+    }
+</script>   
+<style>
+    #use, #pass{
+        text-align: center;
+        width: 180px;
+    }
+</style>
+</html>
